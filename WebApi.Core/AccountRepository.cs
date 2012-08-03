@@ -4,7 +4,7 @@ namespace WebApi.Core
 {
     public class AccountRepository: IAccountRepository
     {
-        public string GetEncryptedPassword(string username)
+        public string GetHashedPassword(string username)
         {
             return "password";
         }

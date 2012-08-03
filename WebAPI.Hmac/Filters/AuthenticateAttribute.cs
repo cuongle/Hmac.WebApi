@@ -23,9 +23,9 @@ namespace WebAPI.Hmac.Filters
 
         public IAccountRepository Repository { get; set; }
 
-        private static string ComputeHash(string encryptedPassword, string message)
+        private static string ComputeHash(string hashedPassword, string message)
         {
-            var key = Encoding.UTF8.GetBytes(encryptedPassword.ToUpper());
+            var key = Encoding.UTF8.GetBytes(hashedPassword.ToUpper());
             string hashString;
 
             using (var hmac = new HMACSHA256(key))
@@ -103,12 +103,12 @@ namespace WebAPI.Hmac.Filters
             return message;
         }
 
-        private static bool IsAuthenticated(string encryptedPassword, string message, string signature)
+        private static bool IsAuthenticated(string hashedPassword, string message, string signature)
         {
-            if (string.IsNullOrEmpty(encryptedPassword))
+            if (string.IsNullOrEmpty(hashedPassword))
                 return false;
 
-            var verifiedHash = ComputeHash(encryptedPassword, message);
+            var verifiedHash = ComputeHash(hashedPassword, message);
             if (signature != null && signature.Equals(verifiedHash))
                 return true;
 
@@ -156,10 +156,10 @@ namespace WebAPI.Hmac.Filters
             }
         }
 
-        private string GetEncryptedPassword(string username)
+        private string GetHashedPassword(string username)
         {
             Repository = new AccountRepository();
-            return Repository.GetEncryptedPassword(username);
+            return Repository.GetHashedPassword(username);
         }
 
         private bool IsAuthenticated(HttpActionContext actionContext)
@@ -188,10 +188,10 @@ namespace WebAPI.Hmac.Filters
 
             AddToMemoryCache(signature);
 
-            var encryptedPassword = GetEncryptedPassword(username);
+            var hashedPassword = GetHashedPassword(username);
             var baseString = BuildBaseString(actionContext);
 
-            return IsAuthenticated(encryptedPassword, baseString, signature);
+            return IsAuthenticated(hashedPassword, baseString, signature);
         }
 
         public override void OnActionExecuting(HttpActionContext actionContext)

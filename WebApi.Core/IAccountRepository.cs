@@ -7,6 +7,6 @@ namespace WebApi.Core
 {
     public interface IAccountRepository
     {
-        string GetEncryptedPassword(string username);
+        string GetHashedPassword(string username);
     }
 }
