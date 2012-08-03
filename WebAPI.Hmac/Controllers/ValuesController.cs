@@ -17,7 +17,6 @@ namespace WebAPI.Hmac.Controllers
 
         public string[] Get()
         {
-            
             return _valueService.GetValues();
         }
 

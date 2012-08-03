@@ -37,15 +37,6 @@ namespace WebAPI.Hmac.Filters
             return hashString;
         }
 
-        private static bool IsGuid(string customerKey)
-        {
-            if (string.IsNullOrEmpty(customerKey))
-                return false;
-
-            Guid guid;
-            return Guid.TryParse(customerKey, out guid);
-        }
-
         private static void AddNameValuesToCollection(List<KeyValuePair<string, string>> parameterCollection,
             NameValueCollection nameValueCollection)
         {
