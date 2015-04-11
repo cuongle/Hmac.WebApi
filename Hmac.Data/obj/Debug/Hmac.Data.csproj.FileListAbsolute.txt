@@ -1,9 +1,0 @@
-C:\lab\Hmac.WebApi\Hmac.Data\bin\Debug\Hmac.Data.dll
-C:\lab\Hmac.WebApi\Hmac.Data\bin\Debug\Hmac.Data.pdb
-C:\lab\Hmac.WebApi\Hmac.Data\bin\Debug\Autofac.dll
-C:\lab\Hmac.WebApi\Hmac.Data\bin\Debug\Hmac.Core.dll
-C:\lab\Hmac.WebApi\Hmac.Data\bin\Debug\Hmac.Core.pdb
-C:\lab\Hmac.WebApi\Hmac.Data\bin\Debug\Autofac.xml
-C:\lab\Hmac.WebApi\Hmac.Data\obj\Debug\Hmac.Data.csprojResolveAssemblyReference.cache
-C:\lab\Hmac.WebApi\Hmac.Data\obj\Debug\Hmac.Data.dll
-C:\lab\Hmac.WebApi\Hmac.Data\obj\Debug\Hmac.Data.pdb

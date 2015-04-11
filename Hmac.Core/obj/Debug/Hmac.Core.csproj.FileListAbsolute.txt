@@ -1,5 +1,0 @@
-C:\lab\Hmac.WebApi\Hmac.Core\bin\Debug\Hmac.Core.dll
-C:\lab\Hmac.WebApi\Hmac.Core\bin\Debug\Hmac.Core.pdb
-C:\lab\Hmac.WebApi\Hmac.Core\obj\Debug\Hmac.Core.csprojResolveAssemblyReference.cache
-C:\lab\Hmac.WebApi\Hmac.Core\obj\Debug\Hmac.Core.dll
-C:\lab\Hmac.WebApi\Hmac.Core\obj\Debug\Hmac.Core.pdb
