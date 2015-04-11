@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9478ABD0-7B11-4903-B59C-9E4059D109C1}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hmac.Api", "Hmac.Api\Hmac.Api.csproj", "{C0526300-6F31-4F63-8474-035450D0CAEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hmac.Web", "Hmac.Web\Hmac.Web.csproj", "{661ABDBE-8FC8-4AC0-B173-44B02CE5D33A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hmac.Data", "Hmac.Data\Hmac.Data.csproj", "{0D026ADB-B110-4E7C-BA95-A2B60544D7D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hmac.Application", "Hmac.Application\Hmac.Application.csproj", "{6607FD38-0111-404E-B191-8E176457D401}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hmac.Core", "Hmac.Core\Hmac.Core.csproj", "{8967052D-0F39-422D-A6CF-5F7FB63C1A63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0526300-6F31-4F63-8474-035450D0CAEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0526300-6F31-4F63-8474-035450D0CAEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0526300-6F31-4F63-8474-035450D0CAEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0526300-6F31-4F63-8474-035450D0CAEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{661ABDBE-8FC8-4AC0-B173-44B02CE5D33A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{661ABDBE-8FC8-4AC0-B173-44B02CE5D33A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{661ABDBE-8FC8-4AC0-B173-44B02CE5D33A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{661ABDBE-8FC8-4AC0-B173-44B02CE5D33A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D026ADB-B110-4E7C-BA95-A2B60544D7D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D026ADB-B110-4E7C-BA95-A2B60544D7D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D026ADB-B110-4E7C-BA95-A2B60544D7D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D026ADB-B110-4E7C-BA95-A2B60544D7D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6607FD38-0111-404E-B191-8E176457D401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6607FD38-0111-404E-B191-8E176457D401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6607FD38-0111-404E-B191-8E176457D401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6607FD38-0111-404E-B191-8E176457D401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8967052D-0F39-422D-A6CF-5F7FB63C1A63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8967052D-0F39-422D-A6CF-5F7FB63C1A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8967052D-0F39-422D-A6CF-5F7FB63C1A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8967052D-0F39-422D-A6CF-5F7FB63C1A63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

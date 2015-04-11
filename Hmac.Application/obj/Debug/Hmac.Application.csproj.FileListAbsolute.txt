@@ -1,0 +1,7 @@
+C:\lab\Hmac.WebApi\Hmac.Application\bin\Debug\Hmac.Application.dll
+C:\lab\Hmac.WebApi\Hmac.Application\bin\Debug\Hmac.Application.pdb
+C:\lab\Hmac.WebApi\Hmac.Application\bin\Debug\Autofac.dll
+C:\lab\Hmac.WebApi\Hmac.Application\bin\Debug\Autofac.xml
+C:\lab\Hmac.WebApi\Hmac.Application\obj\Debug\Hmac.Application.csprojResolveAssemblyReference.cache
+C:\lab\Hmac.WebApi\Hmac.Application\obj\Debug\Hmac.Application.dll
+C:\lab\Hmac.WebApi\Hmac.Application\obj\Debug\Hmac.Application.pdb
