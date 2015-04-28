@@ -1,5 +1,7 @@
 # Hmac.WebApi
 
+[![Join the chat at https://gitter.im/cuongle/Hmac.WebApi](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/cuongle/Hmac.WebApi?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 HMAC authentication uses a secret key for each consumer which both consumer and server both know to hmac hash a message, HMAC256 should be used. Most of cases, hashed password of consumer is used as secret key.
 
 The message normally is built from data in the HTTP request, or even customized data which is added into HTTP header, message might include:
