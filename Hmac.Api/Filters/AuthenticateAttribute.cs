@@ -73,8 +73,7 @@ namespace Hmac.Api.Filters
             if (!parameterCollection.Any())
                 return string.Empty;
 
-            var keyValueStrings = parameterCollection.Select(pair =>
-                string.Format("{0}={1}", pair.Key, pair.Value));
+            var keyValueStrings = parameterCollection.Select(pair => $"{pair.Key}={pair.Value}");
 
             return string.Join("&", keyValueStrings);
         }
@@ -197,7 +196,7 @@ namespace Hmac.Api.Filters
 
         public override void OnActionExecuting(HttpActionContext actionContext)
         {
-            bool isAuthenticated = IsAuthenticated(actionContext);
+            var isAuthenticated = IsAuthenticated(actionContext);
 
             if (!isAuthenticated)
             {
