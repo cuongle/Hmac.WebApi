@@ -58,7 +58,6 @@ local.properties
 *.tlb
 *.tli
 *.tlh
-*.tmp
 *.vspscc
 .builds
 *.dotCover
@@ -161,3 +160,4 @@ pip-log.txt
 
 # Mac crap
 .DS_Store
+/.vs/
